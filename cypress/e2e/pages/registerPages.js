@@ -85,5 +85,8 @@ export class RegisterPages{
     finishButton = '#mentoring-onboarding-finish-btn'
 
     //Modal after register as mentor
+    titleModal = 'Thanks for applying as mentor'
     modalBody = '.ant-modal-body'
+    closeModalButton = '.ant-modal-close-x'
+    startExploringButton = 'article.flex > .ant-btn'
 }
