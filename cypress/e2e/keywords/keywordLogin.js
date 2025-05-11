@@ -15,7 +15,7 @@ export class KeywordLogin{
     clickRegisterButton(){
         cy.screenshot()
         cy.get(loginPages.daftarButton).click()
-        cy.screenshot()
+        cy.screenshot();
     }
 
 

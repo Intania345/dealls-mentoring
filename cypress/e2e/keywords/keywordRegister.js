@@ -283,7 +283,13 @@ export class KeywordRegister{
 
     verifySuccessfulRegisterAsMentor(){
         cy.wait(2000);
-        cy.get(registerPages.modalBody).should.apply('be.exist')    
+        cy.get(registerPages.modalBody).should('be.exist');
+        cy.contains(registerPages.titleModal).should('be.visible');
+        cy.get(registerPages.closeModalButton).should('be.exist');
+        cy.get(registerPages.startExploringButton).should('be.exist');
+        cy.get(registerPages.startExploringButton).click();
+        cy.wait(2000);
+        cy.get(registerPages.menjadiMentorButton).should('not.exist')
     }
 
 }
