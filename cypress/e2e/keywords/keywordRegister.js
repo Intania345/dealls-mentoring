@@ -292,4 +292,9 @@ export class KeywordRegister{
         cy.get(registerPages.menjadiMentorButton).should('not.exist')
     }
 
+    verifyBecomeMentorButton(){
+        cy.wait(2000);
+        cy.get(registerPages.menjadiMentorButton).should('not.exist')
+    }
+
 }
