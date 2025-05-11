@@ -11,7 +11,6 @@ const keywordRegister = new KeywordRegister()
 describe('All Login Tests', function(){
 
     it('Scenario No. 2.2 >> Successful Login with Correct Credentials', () => {
-        
         keywordLogin.goToLoginPage();
         keywordLogin.fillOutEmailLogin('mentordabest@email.com');
         keywordLogin.fillOutPasswordLogin('Abc12345');
