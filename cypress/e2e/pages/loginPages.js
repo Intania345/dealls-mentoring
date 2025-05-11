@@ -2,6 +2,15 @@
 
 export class LoginPages{
     
-    daftarButton = '#dealls-navbar-register-btn'
+    loginButton = '#dealls-navbar-login-btn'
+
+    // login page
+    emailLoginField = '#basic_email'
+    passwordLoginField = '#basic_password'
+    signInButton = '.border-none'
+
+    // login dashboard
+    nameTextDashboard = '.mr-3'
+    imgProfileIcon = '.ant-avatar > img'
 
 }
