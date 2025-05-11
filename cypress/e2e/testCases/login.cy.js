@@ -3,15 +3,21 @@
 /// <reference types="cypress" />
 
 import { KeywordLogin } from "../keywords/keywordLogin"
+import { KeywordRegister } from "../keywords/keywordRegister"
 
 const keywordLogin = new KeywordLogin()
+const keywordRegister = new KeywordRegister()
 
 describe('All Login Tests', function(){
 
-    it('Login with Valid Credentials', () => {
-    
-        keywordLogin.clickRegisterButton();
-
+    it('Scenario No. 2.2 >> Successful Login with Correct Credentials', () => {
+        
+        keywordLogin.goToLoginPage();
+        keywordLogin.fillOutEmailLogin('mentordabest@email.com');
+        keywordLogin.fillOutPasswordLogin('Abc12345');
+        keywordLogin.clickSignInButton();
+        keywordLogin.verifySuccessLogin();
+        keywordRegister.verifyBecomeMentorButton();
     })
     
 })
