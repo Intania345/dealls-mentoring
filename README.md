@@ -106,8 +106,8 @@ This script automates the user registration process to become a mentor. It steps
 *	Fill out all data in the form with valid information until finish
 *	Verify successful register as Mentor by checking the UI of page
 
-**For the complete and detailed implementation, please see the `cypress/e2e/testCases/register.cy.js` file.**
-<br>
+**For the complete and detailed implementation, please see the `cypress/e2e/testCases/register.cy.js` file.**<br>
+
 
 sample for login script automated case:
 ### `cypress/e2e/testCases/login.cy.js`:
@@ -121,8 +121,8 @@ This script automates the login process for existing mentor accounts. It steps:
 *	Click Sign In button
 *	Verify successful login
 
-**For the complete and detailed implementation, please see the `cypress/e2e/testCases/login.cy.js` file.**
-<br>
+**For the complete and detailed implementation, please see the `cypress/e2e/testCases/login.cy.js` file.**<br>
+
 
 sample for explore script automated case:
 ### `cypress/e2e/testCases/explore.cy.js`:
@@ -134,7 +134,7 @@ This script automates the process of searching for name of mentors using the exp
 *	Type the name on search bar, then do enter
 *	Verify search results
 
-**For the complete and detailed implementation, please see the `cypress/e2e/testCases/explore.cy.js` file.**
-<br>
+**For the complete and detailed implementation, please see the `cypress/e2e/testCases/explore.cy.js` file.**<br>
+
 This is the end of the files. <br>
 Thank you.
