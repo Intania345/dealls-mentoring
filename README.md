@@ -155,5 +155,5 @@ This script automates the process of verify the My Session feature. It steps:
 
 
 
-<br>This is the end of the files. <br>
+<br><br>This is the end of the files. <br>
 Thank you.
