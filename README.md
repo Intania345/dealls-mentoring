@@ -52,7 +52,7 @@ The scenario automated in this script is:
     npm install cypress
     ```
 2.  **Do not forget to install the package of:**
-    - mochawesome (for collect the report)
+    * mochawesome (for collect the report)
     ```bash
     npm i --save-dev cypress-mochawesome-reporter
     ```
@@ -64,7 +64,7 @@ The scenario automated in this script is:
     ```bash
     npm install --save-dev mochawesome
     ```
-    - faker (for generate string or other things)
+    * faker (for generate string or other things)
     ```bash
     npm install --save-dev @faker-js/faker
     ```
