@@ -136,5 +136,5 @@ This script automates the process of searching for name of mentors using the exp
 
 **For the complete and detailed implementation, please see the `cypress/e2e/testCases/explore.cy.js` file.**
 
-This is the end of the files.
+This is the end of the files. <br>
 Thank you.
