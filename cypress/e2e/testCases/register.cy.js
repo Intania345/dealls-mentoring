@@ -8,7 +8,7 @@ const { faker } = require('@faker-js/faker');
 const keywordRegister = new KeywordRegister()
 
 
-describe('All Register Tests', function(){
+describe('Register Tests', function(){
 
     it('Scenario No. 1.3 >> Register (Become a Mentor with Valid Information', () => {
         keywordRegister.clickBecomeMentorButton();

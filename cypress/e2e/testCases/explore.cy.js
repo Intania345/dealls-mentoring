@@ -8,7 +8,7 @@ const keywordExplore = new KeywordExplore()
 
 const keywordsearch = 'Backend Tester'
 
-describe('All Explore Tests', function(){
+describe('Explore Tests', function(){
 
     it('Scenario No. 3.1 >> Searching with a Valid Name/Company/Role/Industry/University/Major/Topic Keyword and Returning Results.', () => {
         keywordExplore.goToExploreTab();

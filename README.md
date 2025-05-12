@@ -14,6 +14,7 @@ The scenario automated in this script is:
 * Register feature (**`cypress/e2e/testCases/register.cy.js`**): attempting to register an account to become a mentor (in the PDF document: scenario no. 1.3).
 * Login feature (**`cypress/e2e/testCases/login.cy.js`**): the case for log in with an existing account that is already a mentor (in the PDF document: scenario no. 2.2).
 * Explore feature (**`cypress/e2e/testCases/explore.cy.js`**): the case for searching for a mentor on the explore feature (in the PDF document: scenario no. 3.1).
+* My Session feature (**`cypress/e2e/testCases/mySession.cy.js`**): the case for verify my session page (in the PDF document: scenario no. 4.2).
 
 
 ## Project Structure
@@ -89,6 +90,10 @@ The scenario automated in this script is:
     ```bash
     npx cypress run --spec 'cypress/e2e/testCases/explore.cy.js'
     ```
+    For my session case:
+    ```bash
+    npx cypress run --spec 'cypress/e2e/testCases/mySession.cy.js'
+    ```
 
 
 ## Script Code Overview
@@ -135,6 +140,20 @@ This script automates the process of searching for name of mentors using the exp
 *	Verify search results
 
 **For the complete and detailed implementation, please see the `cypress/e2e/testCases/explore.cy.js` file.**
+
+<br>sample for explore script automated case:
+### `cypress/e2e/testCases/mySession.cy.js`:
+
+This script automates the process of verify the My Session feature. It steps:
+*	Open the dashboard of Dealls! Website
+*	Do login first
+*	Go To Mentoring menu, then click the Mentoring menu
+*	Click My Sessions tab in Mentoring page
+*	Verify the page
+
+**For the complete and detailed implementation, please see the `cypress/e2e/testCases/mySession.cy.js` file.**
+
+
 
 <br>This is the end of the files. <br>
 Thank you.
