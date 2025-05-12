@@ -98,7 +98,7 @@ sample for register script automated case:
 ### `cypress/e2e/testCases/register.cy.js`:
 
 This script automates the user registration process to become a mentor. It steps:
-* Open the dashboard of Dealls! Website
+*   Open the dashboard of Dealls! Website
 *	Go To Mentoring menu, then click the Mentoring menu
 *	Click the “Become a Mentor” / “Menjadi Mentor” button
 *	Click the “Apply as Mentor” button in the next page
