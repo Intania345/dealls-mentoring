@@ -43,4 +43,12 @@ export class KeywordLogin{
         cy.get(loginPages.nameTextDashboard).should('contain', `Hi, ${nameText}!`);
         cy.get(loginPages.imgProfileIcon).should('be.exist');
     }
+
+    loginFirstAccountJobSeeker(){
+        this.goToLoginPage();
+        this.fillOutEmailLogin('jobseeker@email.com');
+        this.fillOutPasswordLogin('Abc12345');
+        this.clickSignInButton();
+    }
+
 }
