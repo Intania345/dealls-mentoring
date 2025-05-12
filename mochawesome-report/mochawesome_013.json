@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-12T11:38:38.030Z",
+    "end": "2025-05-12T11:39:30.212Z",
+    "duration": 52182,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7c2f44c1-6dcd-44de-a21c-5dc974bf7d0c",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\mySession.cy.js",
+      "file": "cypress\\e2e\\testCases\\mySession.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "2aa9d261-f742-402e-946c-869b6581f639",
+          "title": "My Session Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scenario No. 4.2 >> Accessing the My Sessions Tab While Log In and Having No Sessions.",
+              "fullTitle": "My Session Tests Scenario No. 4.2 >> Accessing the My Sessions Tab While Log In and Having No Sessions.",
+              "timedOut": null,
+              "duration": 39823,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "keywordLogin.loginFirstAccountJobSeeker();\nkeywordMySession.goToMySession();\nkeywordMySession.verifyMySessionWithoutSession();",
+              "err": {},
+              "uuid": "a6bf6997-a3ac-4140-9d2c-82b19f02a5e0",
+              "parentUUID": "2aa9d261-f742-402e-946c-869b6581f639",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "a6bf6997-a3ac-4140-9d2c-82b19f02a5e0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 39823,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
