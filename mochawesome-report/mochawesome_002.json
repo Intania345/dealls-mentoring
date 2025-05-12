@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-12T07:11:07.850Z",
+    "end": "2025-05-12T07:11:31.077Z",
+    "duration": 23227,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "be0c186b-8221-4616-a2b6-494a5055ff96",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\explore.cy.js",
+      "file": "cypress\\e2e\\testCases\\explore.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e696c237-b37e-480a-8bea-36c9803f3fe5",
+          "title": "All Explore Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scenario No. 3.1 >> Searching with a Valid Name/Company/Role/Industry/University/Major/Topic Keyword and Returning Results.",
+              "fullTitle": "All Explore Tests Scenario No. 3.1 >> Searching with a Valid Name/Company/Role/Industry/University/Major/Topic Keyword and Returning Results.",
+              "timedOut": null,
+              "duration": 15647,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "keywordExplore.goToExploreTab();\nkeywordExplore.searchOnExploreTab(keywordsearch);\nkeywordExplore.verifySearchResults();",
+              "err": {},
+              "uuid": "87508417-514f-415f-8af3-ecc658f43453",
+              "parentUUID": "e696c237-b37e-480a-8bea-36c9803f3fe5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "87508417-514f-415f-8af3-ecc658f43453"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15647,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

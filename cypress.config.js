@@ -6,14 +6,22 @@ module.exports = defineConfig({
   // video: true,
 
   // report plugin config
-  reporter: 'cypress-mochawesome-reporter',
+  // reporter: 'cypress-mochawesome-reporter',
   // e2e case config
   e2e: {
     watchForFileChanges: false,
     defaultCommandTimeout: 3000,
     setupNodeEvents(on, config) {
       // implement node event listeners here
-      require('cypress-mochawesome-reporter/plugin')(on);
+      // require('cypress-mochawesome-reporter/plugin')(on);
     },
+  },
+  // report plugin config
+  reporter: 'mochawesome',
+  reporterOptions: {
+    // reportDir: 'cypress/results',
+    overwrite: false,
+    html: false,
+    json: true,
   },
 });

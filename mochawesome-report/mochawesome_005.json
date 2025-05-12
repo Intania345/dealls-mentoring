@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-12T07:13:55.678Z",
+    "end": "2025-05-12T07:16:25.547Z",
+    "duration": 149869,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d45bdeba-ecf7-4f82-a4da-65b7e70d3273",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\register.cy.js",
+      "file": "cypress\\e2e\\testCases\\register.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9f4f7b19-13bc-4cef-b2c7-5fde6a8a675e",
+          "title": "All Register Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scenario No. 1.3 >> Register (Become a Mentor with Valid Information",
+              "fullTitle": "All Register Tests Scenario No. 1.3 >> Register (Become a Mentor with Valid Information",
+              "timedOut": null,
+              "duration": 130972,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "keywordRegister.clickBecomeMentorButton();\nkeywordRegister.clickApplyAsMentorButton();\nkeywordRegister.clickRegisterByEmailButton();\nkeywordRegister.verifyGeneralInformationPage();\nkeywordRegister.fillFullName(faker.person.fullName());\nkeywordRegister.fillEmail(faker.internet.email());\nkeywordRegister.fillPhoneNumber('62111111111111');\nkeywordRegister.fillLinkedinUrl('https://www.linkedin.com/in/0/');\nkeywordRegister.fillIgUrl('https://www.instagram.com/a/');\nkeywordRegister.fillInvitationCode('ABCDEFGH');\nkeywordRegister.clickNextButton();\nkeywordRegister.verifyExpertisePage();\nkeywordRegister.fillOutExpertise();\nkeywordRegister.clickNextButton();\nkeywordRegister.verifyCareerExperiencePage();\nkeywordRegister.fillOutCareerExperiences();\nkeywordRegister.clickNextButton();\nkeywordRegister.verifyAcademicsExperiencePage();\nkeywordRegister.fillOutAcademicExperiences();\nkeywordRegister.clickNextButton();\nkeywordRegister.verifyAndFillOutBio();\nkeywordRegister.clickNextButton();\nkeywordRegister.checkListTnC();\nkeywordRegister.createPassword();\nkeywordRegister.verifySuccessfulRegisterAsMentor();",
+              "err": {},
+              "uuid": "6d4e2f2a-fe00-4b1b-ad35-0903f2f64bb7",
+              "parentUUID": "9f4f7b19-13bc-4cef-b2c7-5fde6a8a675e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6d4e2f2a-fe00-4b1b-ad35-0903f2f64bb7"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 130972,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

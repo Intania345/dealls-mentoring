@@ -1,0 +1,104 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-05-12T07:20:10.485Z",
+    "end": "2025-05-12T07:20:40.217Z",
+    "duration": 29732,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1c0ad953-e74e-4b9d-8f15-81d77e259e89",
+      "title": "",
+      "fullFile": "cypress\\e2e\\testCases\\makeSchedule.cy.js",
+      "file": "cypress\\e2e\\testCases\\makeSchedule.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "5ca4ace6-f17f-422d-9ace-4a2711e1ba91",
+          "title": "All Make a ASchedule Tests",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Scenario No. 6.4 >> Requesting a Mentoring Session for Users Who Already Have an Account (Non Mentors)",
+              "fullTitle": "All Make a ASchedule Tests Scenario No. 6.4 >> Requesting a Mentoring Session for Users Who Already Have an Account (Non Mentors)",
+              "timedOut": null,
+              "duration": 21294,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "keywordLogin.loginFirstAccountJobSeeker();",
+              "err": {},
+              "uuid": "891858b8-ea64-461a-8a3d-60beec0d579f",
+              "parentUUID": "5ca4ace6-f17f-422d-9ace-4a2711e1ba91",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "891858b8-ea64-461a-8a3d-60beec0d579f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 21294,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
