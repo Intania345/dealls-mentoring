@@ -17,7 +17,7 @@ The scenario automated in this script is:
 
 
 ## Project Structure
-.
+```
 ├── cypress/
 │   ├── e2e/                # Contains test script files
 |       ├── keywords        # Contains a collection of classes that will be used as testCase
@@ -29,6 +29,7 @@ The scenario automated in this script is:
 ├── package.json
 ├── package-lock.json
 └── README.md
+```
 
 
 ## How to Run the Script
