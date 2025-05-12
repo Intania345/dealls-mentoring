@@ -29,4 +29,29 @@ export class KeywordExplore{
         cy.contains('Backend Tester').should('be.visible');
     }
 
+    searchMentorsNameAndGoToMentorDetail(){
+        this.searchMentorName();
+        this.goToMentorDetail();
+        this.verifyMentorDetail();
+    }
+
+    searchMentorName(){
+        cy.wait(4000);
+        cy.contains(explorePages.exploreTab).click();
+        cy.get(explorePages.searchMentorBar).type('Irvan');
+        cy.contains('Irvan').should('be.visible');
+    }
+
+    goToMentorDetail(){
+        cy.wait(2000);
+        cy.contains('Irvan').click();
+    }
+
+    verifyMentorDetail(){
+        cy.wait(2000);
+        cy.contains('Irvan').should('be.visible');
+    }
+
+
+
 }
